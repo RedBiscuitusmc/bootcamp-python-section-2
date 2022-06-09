@@ -22,3 +22,10 @@ random_choice = random.randint(0, num_items - 1)
 person_who_pays = names[random_choice]
 #output printed to the user
 print(f"{person_who_pays} is going to buy the meal today!")
+
+########################################################
+#This simple way to write this would be varible set to random.choice(*list goes here*)
+# example:
+#varible                    fuction
+#person_who_pays = random.choice(names)
+#random.choice() this function does the heavy lifting of having to use the len() function and set our own varible for the choice
