@@ -45,7 +45,9 @@ p_c = player_Choice.lower()
 #Player Section
 #Varible to transform the str into a int
 p_c_final = int(p_c)
-
+#Bug Catch / stop block for invlid numbers
+if p_c_final >= 3 or p_c_final <= 0:
+    print("You typed a invalid number, you lose!")
 ########################################################
 #list for rock/paper/scissors
 r_p_s = [rock, paper, scissors]
@@ -79,6 +81,7 @@ elif a_I_Choice == 2:
 ########################################################
 print("=====================================================")
 ########################################################
+#Win Condition Handler or event handler
 if p_c_final == 0 and a_I_Choice == 2:
     print("You Win!")
 elif p_c_final == 2 and a_I_Choice == 0:
