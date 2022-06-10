@@ -13,3 +13,15 @@ for fruit in fruits:
     print(fruit)
     print(fruit + "pie")
     print(fruits)
+#################################################################################
+#student_heights = input("Input a list of student heights ").split()
+#for n in range(0, len(student_heights)):
+    #student_heights[n] = int(student_heights[n])
+#################################################################################
+#This is the format for finding a average using a list see exercise average height for how to build functions with forloop
+# total_height = sum(student_heights)
+# number_of_students = len(student_heights)
+# average_height = round(total_height / number_of_students)
+##################################################################################
+# print(average_height)
+#################################################################################
