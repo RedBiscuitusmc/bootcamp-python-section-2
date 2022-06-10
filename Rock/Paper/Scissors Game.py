@@ -58,25 +58,26 @@ print("=====================================================")
 ########################################################
 #Player Choice Logic Handler
 if p_c_final == 0:
-    print(rock)
+    print(r_p_s[0])
 elif p_c_final == 1:
-    print(paper)
+    print(r_p_s[1])
 elif p_c_final == 2:
-    print(scissors)
+    print(r_p_s[2])
 ########################################################
 print("=====================================================")
 print("The A.I. Picked:")
 print("=====================================================")
 ########################################################
 #A.I. Choice Logic Handler
+#This varible picks at random between 0 - 2
 a_I_Choice = random.randint(0, 2)
 
 if a_I_Choice == 0:
-    print(rock)
+    print(r_p_s[0])
 elif a_I_Choice == 1:
-    print(paper)
+    print(r_p_s[1])
 elif a_I_Choice == 2:
-    print(scissors)
+    print(r_p_s[2])
 
 ########################################################
 print("=====================================================")
