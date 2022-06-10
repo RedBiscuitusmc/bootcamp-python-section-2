@@ -79,9 +79,13 @@ elif a_I_Choice == 2:
 ########################################################
 print("=====================================================")
 ########################################################
-if p_c_final < a_I_Choice:
-    print("You lose")
-elif p_c_final == a_I_Choice:
-    print("You tied")
+if p_c_final == 0 and a_I_Choice == 2:
+    print("You Win!")
+elif p_c_final == 2 and a_I_Choice == 0:
+    print("You lose.")
+elif p_c_final < a_I_Choice:
+    print("You lose.")
 elif p_c_final > a_I_Choice:
     print("You Win!")
+elif p_c_final == a_I_Choice:
+    print("You tied")
