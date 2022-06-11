@@ -5,9 +5,9 @@
 #Jacob A. Merlin
 ########################################################
 #########################################################
-#You can add a stepper that increases the count amount by default its one.
-#varible
-
+# Use the last step first when building if, elif, else statements
+#Such as  checking if both numbers are divided by 3 and 5 then divides into 3 then into 5
+#Finally following the else statement to act as the catch all.
 
 
 # #for loop using in range
