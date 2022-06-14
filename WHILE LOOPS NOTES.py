@@ -12,29 +12,26 @@ def turn_right ():
     turn_left()
 
 def movement_bot ():
-    move()
     turn_left()
-
     move()
     turn_right()
-
     move()
     turn_right()
-
     move()
     turn_left()
 
 
-number_Of_movement = 6
-
-while number_Of_movement > 0:
-    movement_bot()
-    number_Of_movement -= 1
-    print(number_Of_movement)
 
 
 while not at_goal():
-    movement_bot()
+    if wall_in_front():
+        movement_bot()
+
+    elif front_is_clear():
+        move()
+
+    else:
+        print("WE run aground!")
 
 #While something_is_true():
 # then do this
